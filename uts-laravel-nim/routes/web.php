@@ -27,9 +27,9 @@ Route::post('/login', function () {
 // Halaman Home
 Route::get('/home', function () {
     $data = [
-        'nim' => '2257401038',
-        'name' => 'Sigit Sunanda',
-        'class' => 'MI22AB'
+        'nim' => '2257401004',
+        'name' => 'Abdul Latif',
+        'class' => 'MI22A'
     ];
     return view('home', $data);
 });
